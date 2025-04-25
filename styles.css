@@ -1,0 +1,22 @@
+.gameUI-container {
+    display: grid; /* Use CSS Grid to layout the cells */
+    grid-template-columns: repeat(3, 100px); /* Create 3 columns, each 100px wide */
+    width: 300px;          /* Total width = 3 cells × 100px each */
+  gap: 5px;              /* Spacing between cells */
+  margin: 20px auto;     /* Center the grid */
+   
+}
+
+.cell{
+    background-color:blue ;
+    text-align: center;
+    height: 100px;
+    width:100px;
+    font-size:calc(90px * 0.9);
+    font-family:sans-serif;
+    font-style: bold;
+}
+
+.cell:hover{
+    background: #e0e0e0;
+}
